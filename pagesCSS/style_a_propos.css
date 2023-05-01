@@ -78,24 +78,49 @@ article{
     margin-bottom: 20px;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    padding: 20px;
     width: 50%;
+    margin: auto;
+    justify-content: space-around;
+}
 
+.formulaire
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.champ {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    padding: 15px;
+    border-radius: 10px;
+    border : 2px solid #000000;
+    outline: none;
+    box-shadow: 6px 6px 35px rgb(255, 255, 255);
+    transition: all 1s;
 }
 
 label{
-    margin: 5px;
+    margin-bottom: 10px;
     color: #03001e;
     font-size: 1.2em;
 }
-
 input[type='submit'],
 input[type='reset']{
-    margin-top: 20px;
+    width: 150px;
+    margin-top: 30px;
     font-size: 1.5em;
     font-weight: bold;
     border-radius: 10px;
@@ -106,19 +131,7 @@ input[type='reset']{
 }
 
 input[type='reset']{
-    color: purple;
-}
-
-input,
-textarea{
-    margin-top: 5px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    border : 2px solid #000000;
-    outline: none;
-    box-shadow: 6px 6px 35px rgb(255, 255, 255);
-    transition: all 1s;
+    color: #6beab9;
 }
 
 input:hover,
@@ -147,6 +160,7 @@ legend{
 
 fieldset{
     margin: 10px;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 6px 6px 35px rgb(255, 255, 255);
     transition: all 1s;

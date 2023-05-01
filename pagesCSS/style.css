@@ -69,7 +69,7 @@ h3{
 h4{
    font-family: "American Typewriter", cursive;
     font-size: 1.5em;
-    color: #bb52d2;
+    color: #641175;
     display: block;
     margin-block-start: 00em;
     margin-block-end: 00em;
@@ -381,24 +381,28 @@ body{
     font-size: 1.3em;
     font-family: "kenyan coffee", sans-serif;
     text-decoration: none;        /* Suppression du soulignement */
-    border: 2px solid;       /* Ajout d'une bordure */
-    border-radius: 50px;           /* Arrondis des bordures */
-    transition: all 1s;          /* Ajout des effets de transition */
+    border: 2px solid;            /* Ajout d'une bordure */
+    border-radius: 50px;          /* Arrondis des bordures */
+    transition: all 1s;           /* Ajout des effets de transition */
 }
 
 .grid-container-menu a:hover,
 button:hover,
-button.degrade:hover{
+button.degrade:hover,
+.btn:hover{
     background: linear-gradient(to right,#000046, #1CB5E0);
     color: #1b33ce;
     border-color: #bb52d2;
+    transition: all 1s;
 }
 
 .grid-container-menu a.actif,
 button a.actif,
-button.degrade a.actif{
+button.degrade a.actif,
+.btn:active{
     background: linear-gradient(to right,#000046, #1CB5E0);
     border-color: #1ABC9C ;
+    transition: all 1s;
 }
 
 .grid-container-menu a:hover,
@@ -414,10 +418,17 @@ button a:hover.actif,
 button.degrade a:hover.actif,
 
 button:hover button a:hover,
-button.degrade a:hover
+button.degrade a:hover,
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus,
+.btn:focus
 {
     color: #421169;
     border-color: #39d7ec;
+    transition: all 1s;
 }
 
 .container-flex {
@@ -451,7 +462,7 @@ button.degrade a:hover
     de l'élément qui la contient)*/
 }
 
-.degrade{
+.degrade, .btn{
     background: radial-gradient(#bb52d2, #1b33ce);
     font-size: 0.8em;
     font-family: 'kenyan coffee', sans-serif;

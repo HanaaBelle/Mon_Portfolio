@@ -116,47 +116,55 @@
         <h1 id="contact">Contactez-Moi 📧</h1>
 
         <form action="https://formsubmit.co/ee493c3648efe202a67022d44571773c" method="post">
-            <fieldset>
+            <fieldset class="formulaire">
                 <legend>Coordonnées</legend>
 
-                <label for="start">Date :</label>
-                <input type="datetime-local" id="start" name="trip-start" value="2023-01-01" min="2023-01-01"
-                       max="2030-01-01"><br>
+                <div class="champ">
+                    <label for="start">Date&Heure :</label>
+                    <input type="datetime-local" id="start" name="trip-start" value="2023-01-01" min="2023-01-01"
+                           max="2030-01-01"><br>
+                </div>
 
-                <label for="nom">Nom :</label>
-                <input id="nom" type="text" name="nom" placeholder="Ex. : votre nom ou anonyme" size="30"
-                       maxlength="25"><br>
+                <div class="champ">
+                    <label for="nom-prenom">Nom&Prénom :</label>
+                    <input id="nom-prenom" type="text" name="nom-prenom" placeholder="Ex. : nom&prénom ou anonyme"><br>
+                </div>
 
-                <label for="prenom">Prénom :</label>
-                <input id="prenom" type="text" name="prenom" placeholder="Ex. : votre prénom ou anonyme" size="25"
-                       maxlength="20"><br>
-
-                <label for="email">Email :</label>
-                <input id="email" type="email" name="email" placeholder="Ex. : votre_email@gmail.com"
-                       autofocus required><br>
+                <div class="champ">
+                    <label for="email">Email :</label>
+                    <input id="email" type="email" name="email" placeholder="Ex. : votre_email@gmail.com"
+                           autofocus required><br>
+                </div>
 
             </fieldset>
 
-            <fieldset>
+            <fieldset class="formulaire">
                 <legend>Contact</legend>
 
-                <label for="message">Écrivez-moi ou partagez-moi vos conseils afin d'améliorer mon Portfolio</label>
-                <textarea name="message" id="message" rows="7" cols="60"></textarea>
+                <div class="champ">
+                    <label for="message">Écrivez-moi ou partagez-moi vos conseils afin d'améliorer mon Portfolio</label>
+                    <textarea name="message" id="message" rows="7"></textarea>
+                </div>
 
-                <p>
-                    Comment souhaitez-vous être contacté(e) ?
-                </p>
+                    <h4>Comment souhaitez-vous être contacté(e) ?</h4>
 
-                <input type="radio" name="preference" value="mail" id="mail">
-                <label for="mail">Par mail</label><br>
+                    <div class="champ">
+                        <input type="radio" name="preference" value="mail" id="par-mail">
+                        <label for="par-mail">Par mail</label><br>
+                    </div>
+                    <div class="champ">
+                        <input type="radio" name="preference" value="tel" id="par-tel">
+                        <label for="par-tel">Par téléphone</label><br>
+                    </div>
+                    <div class="champ">
+                        <input type="radio" name="preference" value="tel" id="no-contact">
+                        <label for="no-contact">Ne pas me contacter</label><br>
 
-                <input type="radio" name="preference" value="tel" id="tel">
-                <label for="tel">Par téléphone</label><br>
-
+                </div>
             </fieldset>
             <div class="box">
-                <input type="submit" value="Envoyer">
-                <input type="reset" value="Annuler">
+                <input class="btn" type="submit" value="Envoyer">
+                <input class="btn" type="reset" value="Effacer">
             </div>
 
         </form>
