@@ -1,0 +1,175 @@
+/* Feuille de style : media-query (pour le responsive) */
+
+@media screen and (max-width: 996px) {
+    .container-column,
+    .container-colonne,
+    .box,
+    .fond-anime,
+    .section-contact,
+    .formulaire,
+    form {
+        margin: 0;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-social-horizontale ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-column div,
+    .container-colonne div,
+    .box div,
+    .fond-anime div {
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+        order: 2;
+    }
+
+    .container-column .photo,
+    .container-colonne .photo,
+    .box .photo,
+    .fond-anime .photo{
+        order: 1;
+        width: 80%;
+    }
+
+    .container-column .logo,
+    .container-colonne .logo,
+    .box .logo,
+    .fond-anime .logo,
+    .container-column .btn-up,
+    .container-colonne .btn-up,
+    .box .btn-up,
+    .fond-anime .btn-up {
+        order: 1;
+        width: 30%;
+    }
+
+    .container-column,
+    .container-colonne,
+    .box,
+    .fond-anime {
+        padding: 10px;
+    }
+
+    fieldset {
+        margin-right: 0;
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .section-contact {
+        padding: 10px 0 10px 0;
+    }
+
+    .formulaire {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .container-ligne{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+    }
+
+    .degrade-article{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .degrade-article .img-miniature{
+        width: 500%;
+    }
+
+    header nav,
+    nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    header nav img,
+    nav,
+    img,
+    .photo,
+    .logo,
+    .btn-up{
+        padding-bottom: 0;
+        padding-top: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    header,
+    footer {
+        padding-bottom: 0;
+        padding-top: 10px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .grid-container-menu .menu,
+    .copyright a {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .ma-classe,
+    em,
+    a,
+    .copyright,
+    .copyright a,
+    h3,
+    .degrade,
+    .btn {
+        font-size: 1.1em;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    p, li, .copyright li {
+        font-size: 0.7em;
+    }
+
+    section {
+        padding: 30px 20px 30px 20px;
+    }
+
+    nav a,
+    a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    button {
+        font-size: 7px;
+        text-align: center;
+    }
+}

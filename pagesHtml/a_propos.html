@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="fr" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html id="top" lang="fr" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>À propos de Hanâa Fullstack Software Engineer</title>
     <link rel="icon" type="image/x-icon" href="../images/dev-svgrepo-com.svg">
 
-    <link rel="stylesheet" type="text/css" href="../pagesCSS/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../pagesCSS/styles.css"/>
     <link rel="stylesheet" type="text/css" href="../pagesCSS/style_a_propos.css"/>
+    <link rel="stylesheet" type="text/css" href="../pagesCSS/index.css"/>
+    <link rel="stylesheet" type="text/css" href="../pagesCSS/media_query.css"/>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Montserrat:wght@100&family=Alice&family=Lobster+Two&family=Roboto:ital,wght@1,700&display=swap"
@@ -21,7 +25,7 @@
 
 <!-- Header -->
 
-<header id="Retour_en_haut">
+<header>
     <div id="container-haut">
         <div class="fond-anime">
             <div class="container-flex-menu">
@@ -46,7 +50,7 @@
                             <a class="menu" href="../index.html">Accueil</a>
                         </li>
                         <li>
-                            <a class="menu" href="../pagesHtml/a_propos.html">À propos</a>
+                            <a class="menu" href="../pagesHtml/a_propos.html#top">À propos</a>
                         </li>
                         <li>
                             <a class="menu" href="../pagesHtml/portfolio.html">Portfolio</a>
@@ -102,16 +106,15 @@
 
                 <!-- Photo -->
 
-                <figure>
-                    <a href="../images/ma_photo.png" target="_blank">
-                        <img class="photo" src="../images/ma_photo.png"
-                             alt="Photo d'Hanâa" title="Cliquez pour agrandir la photo d'Hanâa"></a>
-                </figure>
+                <a href="../images/ma_photo.png" target="_blank">
+                    <img class="class=img-responsive photo" src="../images/ma_photo.png"
+                         alt="Photo d'Hanâa" title="Cliquez pour agrandir la photo d'Hanâa">
+                </a>
             </div>
         </div>
     </section>
 
-    <section>
+    <section class="section-contact">
 
         <h1 id="contact">Contactez-Moi 📧</h1>
 
@@ -120,13 +123,13 @@
                 <legend>Coordonnées</legend>
 
                 <div class="champ">
-                    <label for="start">Date&Heure :</label>
+                    <label for="start">Date & Heure :</label>
                     <input type="datetime-local" id="start" name="trip-start" value="2023-01-01" min="2023-01-01"
                            max="2030-01-01"><br>
                 </div>
 
                 <div class="champ">
-                    <label for="nom-prenom">Nom&Prénom :</label>
+                    <label for="nom-prenom">Nom & Prénom :</label>
                     <input id="nom-prenom" type="text" name="nom-prenom" placeholder="Ex. : nom&prénom ou anonyme"><br>
                 </div>
 
@@ -146,19 +149,19 @@
                     <textarea name="message" id="message" rows="7"></textarea>
                 </div>
 
-                    <h4>Comment souhaitez-vous être contacté(e) ?</h4>
+                <h3>Comment souhaitez-vous être contacté(e) ?</h3>
 
-                    <div class="champ">
-                        <input type="radio" name="preference" value="mail" id="par-mail">
-                        <label for="par-mail">Par mail</label><br>
-                    </div>
-                    <div class="champ">
-                        <input type="radio" name="preference" value="tel" id="par-tel">
-                        <label for="par-tel">Par téléphone</label><br>
-                    </div>
-                    <div class="champ">
-                        <input type="radio" name="preference" value="tel" id="no-contact">
-                        <label for="no-contact">Ne pas me contacter</label><br>
+                <div class="champ">
+                    <input type="radio" name="preference" value="mail" id="par-mail">
+                    <label for="par-mail">Par mail</label><br>
+                </div>
+                <div class="champ">
+                    <input type="radio" name="preference" value="tel" id="par-tel">
+                    <label for="par-tel">Par téléphone</label><br>
+                </div>
+                <div class="champ">
+                    <input type="radio" name="preference" value="tel" id="no-contact">
+                    <label for="no-contact">Ne pas me contacter</label><br>
 
                 </div>
             </fieldset>
@@ -227,7 +230,7 @@
         </div>
     </div>
     <div class="box">
-        <a href="#container-haut" target="_blank">
+        <a href="#top" target="_top">
             <img class="btn-up" src="../images/chevron-up-square-svgrepo-com.svg" alt="Logo up"
                  title="Retour en haut de la page">
         </a>

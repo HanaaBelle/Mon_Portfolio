@@ -1,4 +1,4 @@
-/* Feuille de style : index */
+/* Feuille de style : styles */
 
 @font-face {
     font-family: 'kenyan coffee';
@@ -24,91 +24,19 @@ body, html {
     box-shadow: 6px 6px 35px rgb(126, 189, 164);
 }
 
-#btn{
-    margin-top: 35px;
-}
-
-.ma-classe, em{
-    padding: 30px 0 20px 0;
-}
-
 h1{
-    font-size: 3em;
-    font-weight: 700;
-}
-
-h2{
-    font-size: 1.7em;
-    color: #fce7fc;
-    font-family: 'American Typewriter', fantasy;
-    text-shadow: 6px 6px 10px rgb(45, 7, 75);
-    letter-spacing: 2px;
-    font-weight: 700;
-    transition: all 1s;
-    display: block;
-    margin-block-start: 00em;
-    margin-block-end: 00em;
-    margin-inline-start: 00px;
-    margin-inline-end: 00px;
-    text-align: center;
-}
-
-h3{
-    font-family: 'American Typewriter', cursive;
-    font-size: 1.5em;
-    color: #bb52d2;
-    display: block;
-    margin-block-start: 00em;
-    margin-block-end: 00em;
-    margin-inline-start: 00px;
-    margin-inline-end: 00px;
-    font-weight: bold;
-    text-align: center;
-}
-
-h4{
-   font-family: "American Typewriter", cursive;
-    font-size: 1.5em;
-    color: #641175;
-    display: block;
-    margin-block-start: 00em;
-    margin-block-end: 00em;
-    margin-inline-start: 00px;
-    margin-inline-end: 00px;
-    font-weight: bold;
-    text-align: center;
-}
-
-#Retour_en_haut, h1 {
     text-align: center;
     font-size: 4em;
     color: #6beab9;
+    font-weight: 700;
     font-family: 'kenyan coffee', sans-serif;
     text-shadow: 9px 9px 10px rgb(66, 17, 105);
     letter-spacing: 2px;
     transition: all 1s;
 }
 
-.ma-classe {
-    font-size: 1.25em;
-}
-
-.ma-classe-2, .ma-classe, .copyright {
-    text-align: center;
-    color: #6beab9;
-    font-weight: 700;
-    font-size: 2.5em;
-    font-family: 'Manrope', sans-serif;
-    letter-spacing: 1px;
-}
-
-em {
-    color: #b214a5;
-    font-style: normal;
-    font-weight: 800;
-}
-
 .copyright {
+
     text-align: center;
     color: purple;
     font-size: 1em;
@@ -143,7 +71,9 @@ ul {
 }
 
 
-p, li, .copyright li{
+p,
+li,
+.copyright li{
     font-family: 'American Typewriter', cursive;
     font-weight: 800;
     color: #ffffff;
@@ -166,7 +96,7 @@ p, li, .copyright li{
 
 .logo,
 .btn-up,
-.container-flex, .container-column,
+.container-column,
 .grid-container-menu .menu{
     border-radius: 50%;
     border : 3px solid white;
@@ -185,10 +115,6 @@ p, li, .copyright li{
 .btn-up:hover{
     opacity: 0.3;
     color: purple;
-}
-
-.logo-social-media:hover + h2{
-    color: #ffffff;
 }
 
 .logo-social-media:active{
@@ -227,6 +153,7 @@ a:focus{
 }
 
 .non-souligne {
+    text-align: center;
     text-decoration : none;
 }
 
@@ -289,53 +216,6 @@ body{
     flex-wrap: wrap;
     justify-content: center;
 }
-
-.container-column{
-    display: flex;
-    flex-direction: column;
-    flex-flow: column wrap;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-image: url("../images/background.jpg");
-    background-attachment: fixed; /*permet de rendre l'image de fond fixe lorsqu'on déroule la page web */
-    background-size: cover; /*permet de redimensionner l'image afin qu'elle s'adapte à la taille de l'élément
-    qui la contient (elle garde ses proportions, en rognant la largeur ou la hauteur en fonction de la taille
-    de l'élément qui la contient)*/
-    padding: 00px 10px 10px 10px; /* Vous ne connaissez pas encore cette propriété mais elle permet d'ajouter
-     de l'espace dans notre élément*/
-    margin: 00px 10px 10px 10px;
-    border-radius: 50px;
-    border : 3px solid white;
-    box-shadow: 6px 6px 35px rgb(126, 189, 164);
-}
-
-.grid-container {
-    text-align: center;
-    align-content: space-around;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
-    grid-gap: 40px;
-    align-items:center;
-    padding: 10px 10px 10px 10px; /* Vous ne connaissez pas encore cette propriété mais elle permet d'ajouter
-     de l'espace dans notre élément*/
-    margin: 10px 10px 10px 10px;
-    background-position: top left; /*associée aux valeurs  top ,  bottom ,  left ,  center  ou  right
-    permet d'indiquer où doit se trouver l'image de fond */
-    opacity: 0.9;
-}
-
-/*
-.btn-up{
-    position: fixed;
-    bottom: 00px;
-    left: 100px;
-}
-
- */
 
 .box-social-horizontale{
     display: flex;
@@ -429,24 +309,6 @@ textarea:focus,
     color: #421169;
     border-color: #39d7ec;
     transition: all 1s;
-}
-
-.container-flex {
-    text-align: center;
-    display: block;
-    justify-content: center;
-    align-items:center;
-    height: auto;
-    background-image: url("../images/background.jpg");
-    background-attachment: fixed; /*permet de rendre l'image de fond fixe lorsqu'on déroule la page web */
-    background-size: cover; /*permet de redimensionner l'image afin qu'elle s'adapte à la taille de l'élément
-    qui la contient (elle garde ses proportions, en rognant la largeur ou la hauteur en fonction de la taille
-    de l'élément qui la contient)*/
-    padding: 10px 10px 10px 10px;
-    border-radius: 70px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .container-flex-menu{
