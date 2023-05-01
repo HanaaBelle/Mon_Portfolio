@@ -75,18 +75,18 @@
                 <h1>Salut ! Je m'appelle Hanâa <span>👩🏻‍💻</span></h1>
 
                 <div class="box a-propos">
-                <h2>
-                    Je suis développeuse algérienne.<br>
-                    J'habite en île-de-France.
-                </h2>
-                <h2>
-                    J'aime la programmation créative.<br>
-                    Les challenges techniques me motivent.
-                </h2>
-                <h2>
-                    Curieuse et passionnée, j'aime l'art et le design.<br>
-                    Je suis une Serial apprenante !
-                </h2>
+                    <h2>
+                        Je suis développeuse algérienne.<br>
+                        J'habite en île-de-France.
+                    </h2>
+                    <h2>
+                        J'aime la programmation créative.<br>
+                        Les challenges techniques me motivent.
+                    </h2>
+                    <h2>
+                        Curieuse et passionnée, j'aime l'art et le design.<br>
+                        Je suis une Serial apprenante !
+                    </h2>
                 </div>
 
                 <!-- Portfolio -->
@@ -115,21 +115,49 @@
 
         <h1 id="contact">Contactez-Moi 📧</h1>
 
-        <form action="" method="get">
-            <label for="start">Date :</label>
-            <input type="datetime-local" id="start" name="trip-start" value="2023-01-01" min="2023-01-01" max="2030-01-01">
+        <form action="https://formsubmit.co/ee493c3648efe202a67022d44571773c" method="post">
+            <fieldset>
+                <legend>Coordonnées</legend>
 
-            <label for="nom">Nom :</label>
-            <input id="nom" type="text" name="nom" placeholder="Ex. : votre nom ou anonyme" size="30" maxlength="25">
+                <label for="start">Date :</label>
+                <input type="datetime-local" id="start" name="trip-start" value="2023-01-01" min="2023-01-01"
+                       max="2030-01-01"><br>
 
-            <label for="prenom">Prénom :</label>
-            <input id="prenom" type="text" name="prenom" placeholder="Ex. : votre prénom ou anonyme" size="25" maxlength="20">
+                <label for="nom">Nom :</label>
+                <input id="nom" type="text" name="nom" placeholder="Ex. : votre nom ou anonyme" size="30"
+                       maxlength="25"><br>
 
-            <label for="email">Email :</label>
-            <input id="email" type="email" name="email" placeholder="Ex. : votre_email@gmail.com">
+                <label for="prenom">Prénom :</label>
+                <input id="prenom" type="text" name="prenom" placeholder="Ex. : votre prénom ou anonyme" size="25"
+                       maxlength="20"><br>
 
-            <label for="message">Écrivez-moi ou partagez-moi vos conseils afin d'améliorer mon Portfolio</label>
-            <textarea name="message" id="message" rows="7" cols="7"></textarea>
+                <label for="email">Email :</label>
+                <input id="email" type="email" name="email" placeholder="Ex. : votre_email@gmail.com"
+                       autofocus required><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact</legend>
+
+                <label for="message">Écrivez-moi ou partagez-moi vos conseils afin d'améliorer mon Portfolio</label>
+                <textarea name="message" id="message" rows="7" cols="60"></textarea>
+
+                <p>
+                    Comment souhaitez-vous être contacté(e) ?
+                </p>
+
+                <input type="radio" name="preference" value="mail" id="mail">
+                <label for="mail">Par mail</label><br>
+
+                <input type="radio" name="preference" value="tel" id="tel">
+                <label for="tel">Par téléphone</label><br>
+
+            </fieldset>
+            <div class="box">
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Annuler">
+            </div>
 
         </form>
 
@@ -161,7 +189,8 @@
                     </li>
                     <li>
                         <a href="https://twitter.com/" target="_blank">
-                            <img class="logo-social-media" src="../images/twitter.png" alt="Logo Twitter" title="Me joindre sur Twitter">
+                            <img class="logo-social-media" src="../images/twitter.png" alt="Logo Twitter"
+                                 title="Me joindre sur Twitter">
                         </a>
                     </li>
                     <li>
@@ -172,7 +201,8 @@
                     </li>
                     <li>
                         <a href="https://www.https://github.com/HanaaBelle/" target="_blank">
-                            <img class="logo-social-media" src="../images/github.svg" alt="Logo Instagram" title="Mon compte Github">
+                            <img class="logo-social-media" src="../images/github.svg" alt="Logo Instagram"
+                                 title="Mon compte Github">
                         </a>
                     </li>
 
@@ -180,7 +210,8 @@
 
                     <li>
                         <a href="" target="_blank">
-                            <img class="logo-social-media" src="../images/resume.svg" alt="Logo CV" title="Pour télécharger mon CV">
+                            <img class="logo-social-media" src="../images/resume.svg" alt="Logo CV"
+                                 title="Pour télécharger mon CV">
                         </a>
                     </li>
                 </ul>

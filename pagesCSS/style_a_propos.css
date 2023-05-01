@@ -69,6 +69,15 @@ article{
     margin-bottom: 10px;
 }
 
+.box-a-propos{
+    padding: 10px;
+}
+
+.a-propos{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -78,26 +87,67 @@ form{
 
 }
 
-input, textarea{
-    margin: 10px;
+label{
+    margin: 5px;
+    color: #03001e;
+    font-size: 1.2em;
+}
+
+input[type='submit'],
+input[type='reset']{
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px;
+    border : 2px solid #000000;
+    box-shadow: 6px 6px 35px rgb(255, 255, 255);
+    transition: all 1s;
+    font-family: 'kenyan coffee', sans-serif;
+}
+
+input[type='reset']{
+    color: purple;
+}
+
+input,
+textarea{
+    margin-top: 5px;
+    margin-bottom: 20px;
     padding: 10px;
-    border-radius: 20px;
-    border : 3px solid #000000;
+    border-radius: 10px;
+    border : 2px solid #000000;
+    outline: none;
     box-shadow: 6px 6px 35px rgb(255, 255, 255);
     transition: all 1s;
 }
 
-label{
-    margin: 5px;
-    color: #03001e;
-    font-size: 1.35em;
+input:hover,
+textarea:hover{
+    background-color: lightskyblue;
 }
 
-.box-a-propos{
-    padding: 10px;
+input:focus,
+textarea:focus{
+    background-color: #b495f5;
 }
 
-.a-propos{
-    margin-top: 0;
-    margin-bottom: 20px;
+:required {
+    background-color:#F2A3BB;
+}
+
+legend{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    border : 2px solid #000000;
+    box-shadow: 6px 6px 35px rgb(255, 255, 255);
+    transition: all 1s;
+}
+
+fieldset{
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 35px rgb(255, 255, 255);
+    transition: all 1s;
 }
