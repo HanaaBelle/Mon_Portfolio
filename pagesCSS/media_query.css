@@ -16,8 +16,8 @@
     }
 
     .box-social-horizontale ul{
-        flex-direction: row;
-        flex-wrap: wrap;
+        display: flex;
+        flex-flow: column;
         align-items: center;
         justify-content: center;
     }
