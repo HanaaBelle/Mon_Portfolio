@@ -15,7 +15,7 @@
         justify-content: center;
     }
 
-    .box-social-horizontale ul{
+    .box-social-horizontale ul, section.section-contact{
         display: flex;
         flex-flow: column;
         align-items: center;
@@ -47,11 +47,8 @@
     .container-column .logo,
     .container-colonne .logo,
     .box .logo,
-    .fond-anime .logo,
-    .container-column .btn-up,
-    .container-colonne .btn-up,
-    .box .btn-up,
-    .fond-anime .btn-up {
+    .fond-anime .logo
+    {
         order: 1;
         width: 30%;
     }
@@ -95,10 +92,6 @@
         align-items: center;
         justify-content: center;
         margin: 0;
-    }
-
-    .degrade-article .img-miniature{
-        width: 500%;
     }
 
     header nav,
