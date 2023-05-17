@@ -32,6 +32,10 @@
         order: 2;
     }
 
+    .container-row{
+        text-align: center;
+    }
+
     .container-column .photo,
     .container-colonne .photo,
     .box .photo,

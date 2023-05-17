@@ -239,6 +239,14 @@ body{
     margin-right: 20px ;
 }
 
+.box-responsive{
+    align-items: center;
+    flex-direction: column;
+    display: flex;              /* Transformation en flexbox */
+    padding: 0;                  /* Suppression des marges internes */
+    justify-content: center     /* Alignements des liens dans le menu */
+}
+
 .grid-container-menu{
     align-items: center;
     flex-direction: column;
