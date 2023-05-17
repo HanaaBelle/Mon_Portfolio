@@ -143,26 +143,29 @@
 
             <fieldset class="formulaire">
                 <legend>Contact</legend>
-
-                <div class="champ">
-                    <label for="message">Écrivez-moi ou partagez-moi vos conseils afin d'améliorer mon Portfolio</label>
-                    <textarea name="message" id="message" rows="7"></textarea>
+                <div class="box">
+                    <div class="champ">
+                        <label for="message">Écrivez-moi ou partagez-moi vos conseils afin d'améliorer mon
+                            Portfolio</label>
+                        <textarea name="message" id="message" rows="7"></textarea>
+                    </div>
                 </div>
+                <div class="box">
+                    <h3>Comment souhaitez-vous être contacté(e) ?</h3>
 
-                <h3>Comment souhaitez-vous être contacté(e) ?</h3>
+                    <div class="champ">
+                        <input type="radio" name="preference" value="mail" id="par-mail">
+                        <label for="par-mail">Par mail</label><br>
+                    </div>
+                    <div class="champ">
+                        <input type="radio" name="preference" value="tel" id="par-tel">
+                        <label for="par-tel">Par téléphone</label><br>
+                    </div>
+                    <div class="champ">
+                        <input type="radio" name="preference" value="tel" id="no-contact">
+                        <label for="no-contact">Ne pas me contacter</label><br>
 
-                <div class="champ">
-                    <input type="radio" name="preference" value="mail" id="par-mail">
-                    <label for="par-mail">Par mail</label><br>
-                </div>
-                <div class="champ">
-                    <input type="radio" name="preference" value="tel" id="par-tel">
-                    <label for="par-tel">Par téléphone</label><br>
-                </div>
-                <div class="champ">
-                    <input type="radio" name="preference" value="tel" id="no-contact">
-                    <label for="no-contact">Ne pas me contacter</label><br>
-
+                    </div>
                 </div>
             </fieldset>
             <div class="box">

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3638f2d4-630b-4a45-aa8b-d63f046815f3" name="Changes" comment="" />
+    <list default="true" id="3638f2d4-630b-4a45-aa8b-d63f046815f3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagesCSS/media_query.css" beforeDir="false" afterPath="$PROJECT_DIR$/pagesCSS/media_query.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagesCSS/style_a_propos.css" beforeDir="false" afterPath="$PROJECT_DIR$/pagesCSS/style_a_propos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagesHtml/a_propos.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesHtml/a_propos.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,23 +38,25 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/hanaabelhamidi/AdaDev/Mon_Portfolio",
+    "last_opened_file_path": "/Users/hanaabelhamidi/AdaDev/Mon_Portfolio/images",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
@@ -76,6 +83,8 @@
       <workItem from="1682816402792" duration="244000" />
       <workItem from="1682816757471" duration="149000" />
       <workItem from="1682817009111" duration="41916000" />
+      <workItem from="1684249087907" duration="12426000" />
+      <workItem from="1684332079092" duration="1786000" />
     </task>
     <servers />
   </component>

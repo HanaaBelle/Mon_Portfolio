@@ -4,10 +4,8 @@
     .container-column,
     .container-colonne,
     .box,
-    .fond-anime,
-    .section-contact,
-    .formulaire,
-    form {
+    .fond-anime
+    {
         margin: 0;
         flex-direction: column;
         flex-wrap: wrap;
@@ -15,7 +13,8 @@
         justify-content: center;
     }
 
-    .box-social-horizontale ul, section.section-contact{
+    .box-social-horizontale ul,
+    section.section-contact{
         display: flex;
         flex-flow: column;
         align-items: center;
@@ -73,6 +72,8 @@
     .formulaire {
         flex-direction: column;
         gap: 0;
+        justify-content: center;
+        text-align: center;
     }
 
     .container-ligne{
